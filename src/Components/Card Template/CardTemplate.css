@@ -1,0 +1,80 @@
+.card-app-card-box{
+    background: linear-gradient(to right, #AA5B69, #6D324B);
+    border-radius: 12px;
+    color: #fff;
+    width: 400px;
+    padding: 15px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 30;
+    transition: all .5s ease;
+}
+
+.card-app-card-header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-app-header-left p{
+    text-align: left;
+}
+
+.card-app-card-content{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-app-card-number{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: ltr;
+}
+
+.card-app-content-bottom{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.card-app-extra-info-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    direction: ltr;
+}
+
+.card-app-extra-info-right{
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.card-app-card-box:hover{
+    transform: translateY(-5px)
+}
+
+@media (max-width: 460px) {
+    .card-app-card-box{
+        width: 80%;
+    }
+
+    .card-app-h2{
+        font-size: 22px;
+    }
+}
