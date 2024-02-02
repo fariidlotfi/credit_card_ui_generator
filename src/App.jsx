@@ -1,6 +1,6 @@
 import { useState } from "react";
 import CardTemplate from "./Components/Card Template/CardTemplate";
-import "./app.css";
+import "./App.css";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { VscError } from "react-icons/vsc";
 import Modal from "./Components/Modal/Modal";
